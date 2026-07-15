@@ -1,1 +1,2 @@
-PASS = "passwrd1" #default password for webrepl
+import config
+PASS = config.repl_password
