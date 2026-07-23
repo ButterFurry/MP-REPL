@@ -1,0 +1,27 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: make submodules
+      working-directory: ./WIZnet-EVB-Pico-micropython
+
+    - name: Build MPY-cross
+      run: make -C mpy-cross
+      working-directory: ./WIZnet-EVB-Pico-micropython
+
+    - name: Build Firmware
+      # Combine the directory change and lower-case make command using &&
+      run: cd ports/rp2 && make BOARD=W5100S_EVB_PICO2
+      working-directory: ./WIZnet-EVB-Pico-micropython
