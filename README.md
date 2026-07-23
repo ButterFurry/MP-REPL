@@ -64,4 +64,4 @@ if you arent using any of those setups, you have to wire it like this:
 - CSn:GPIO17
 
 ---
-![Demo](https://youtu.be/MWaGbEltz5M)
+[Demo](https://youtu.be/MWaGbEltz5M)
