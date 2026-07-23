@@ -1,8 +1,20 @@
 #!/bin/bash
-// Requires the micropython code to already be flashed to the device
-mkdir uf2
-wget -O picotool.tar.gz https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.3.0-0/picotool-2.3.0-x86_64-lin.tar.gz
-tar -xzf picotool.tar.gz
-cd picotool
 
-picotool save -a ../uf2/build.uf2
+// this script will make a prebuilt UF2 with the scripts on it for if you do not want to go thru with sending them over.
+
+
+cd WIZnet-EVB-Pico-micropython
+make -C mpy-cross
+
+cd ports/rp2
+
+make submodules
+
+make BOARD=W5100S_EVB_PICO2
+
+cp build-W5100S_EVB_PICO2 ../../../uf2
+
+
+
+
+

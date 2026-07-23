@@ -98,7 +98,6 @@ static void print_usage(const char *prog) {
 }
 
 #ifdef _WIN32
-// MSVC/mingw don't have strcasecmp under that name in all configs
 #include <string.h>
 #ifndef strcasecmp
 #define strcasecmp _stricmp

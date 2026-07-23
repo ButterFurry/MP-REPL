@@ -2,6 +2,7 @@ import json
 import _thread
 
 SETTINGS_FILE = "settings.json"
+
 _lock = _thread.allocate_lock()
 _cache = {}
 
@@ -11,6 +12,9 @@ def _load_from_disk():
         with open(SETTINGS_FILE) as f:
             return json.load(f)
     except OSError:
+        with open(SETTINGS_FILE, "w") as f:
+            f.write("\n")
+            f.close()
         return {}
 
 
