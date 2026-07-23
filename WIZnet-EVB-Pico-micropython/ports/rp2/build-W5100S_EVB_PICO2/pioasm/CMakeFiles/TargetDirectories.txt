@@ -1,0 +1,7 @@
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/pioasm.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/edit_cache.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/rebuild_cache.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/list_install_components.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/install.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/install/local.dir
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm/CMakeFiles/install/strip.dir

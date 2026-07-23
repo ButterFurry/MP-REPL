@@ -1,0 +1,5 @@
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm-install/pioasm/pioasm
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm-install/pioasm/pioasmTargets.cmake
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm-install/pioasm/pioasmTargets-release.cmake
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm-install/pioasm/pioasmConfig.cmake
+/run/media/totally-not-asuka/Games/MP-REPL/WIZnet-EVB-Pico-micropython/ports/rp2/build-W5100S_EVB_PICO2/pioasm-install/pioasm/pioasmConfigVersion.cmake
