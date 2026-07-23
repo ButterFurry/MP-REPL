@@ -45,3 +45,23 @@ But if that were not to work:
 2. run `cd ports/rp2 && make submodules`
 
 3. finally, run `make BOARD=W5100S_EVB_PICO2` (the build output will be in the active directory if built with this method, otherwise it will be in the ROOT/uf2 dir)
+
+---
+## Things to know:
+
+Pinout(s) shouldnt be needed as both the suggested board (WIZnet EVB Pico 2) and my setup (Pi Pico 2 with WIZNET W5100S HAT) use the same pinout.
+
+__however__
+
+if you arent using any of those setups, you have to wire it like this:
+
+(_keep in mind it still must be a w5100s based ethernet module_)
+
+- MISO:GPIO16
+- MOSI:GPIO19
+- SCK:GPIO18
+- RSTn:GPIO20
+- CSn:GPIO17
+
+---
+![Demo](https://youtu.be/MWaGbEltz5M)
