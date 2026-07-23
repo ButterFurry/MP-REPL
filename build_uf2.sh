@@ -12,7 +12,7 @@ make submodules
 
 make BOARD=W5100S_EVB_PICO2
 
-cp build-W5100S_EVB_PICO2 ../../../uf2
+cp -r build-W5100S_EVB_PICO2 ../../../uf2
 
 
 

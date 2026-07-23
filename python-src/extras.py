@@ -16,5 +16,5 @@ def stats():
 
     uptime = time.time()
 
-    return f"Core Temperature: {temperature}\n Uptime (s): {uptime}"
+    return f"Core Temperature: {temperature} \n Uptime (s): {uptime}"
 
