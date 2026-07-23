@@ -13,9 +13,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install dependencies
-      run: make submodules
-      working-directory: ./WIZnet-EVB-Pico-micropython
+    #- name: Install dependencies
+      #run: make submodules
+      #working-directory: ./WIZnet-EVB-Pico-micropython
 
     - name: Build MPY-cross
       run: make -C mpy-cross
